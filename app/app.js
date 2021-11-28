@@ -22,7 +22,7 @@ io.sockets.on('connection', function(socket) {
 
         mc_server = proc.spawn(
             "java",
-            ['-Xms512M', '-Xmx512M', '-jar', 'server/spigot-1.14.jar', 'nogui'],
+            ['-Xms512M', '-Xmx512M', '-jar', 'spigot-1.14.jar', 'nogui'],
 
             { cwd: "C:/Program\ Files\ (x86)/Minecraft/_"+ servers[server] }
         );
